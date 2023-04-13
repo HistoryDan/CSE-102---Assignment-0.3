@@ -1,0 +1,10 @@
+144c144,145
+<   new Ball(700, 400, 80) 
+---
+>   new Ball(700, 400, 80),
+>   new Ball(300, 400, 50)
+160a162,163
+>   balls[1].checkCollision(balls[2]);
+>   balls[0].checkCollision(balls[2]);
+162d164
+< 
